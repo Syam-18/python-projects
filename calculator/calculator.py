@@ -34,7 +34,7 @@ buttons = [
     ('C', '0', '=', '+')
 ]
 
-#create buttons and them to the window
+#create buttons and add them to the window
 for row in buttons:
     frame = tk.Frame(root)
     frame.pack(fill = "both", expand = True)
